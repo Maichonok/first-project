@@ -1,3 +1,6 @@
+.header__link {
+  text-decoration: none;
+}
 /* все ссылки, которые пользователь не трогал, будут синие */
 .header__link:link {
     color: #2f80ed;
@@ -8,9 +11,9 @@
 }
 /* ссылка, на которую пользователь навёл курсор, сменит цвет на зеленый */
 .header__link:hover {
-    color: #0f0;
+    color: #2f38ed;
 }
 /* в момент клика ссылка станет красной */
 .header__link:active {
     color: #f00;
-} 
+}

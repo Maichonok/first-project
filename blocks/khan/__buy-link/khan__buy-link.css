@@ -1,5 +1,23 @@
 .khan__buy-link {
-  line-height: 42;
+  line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  text-decoration: none;
+}
+
+/* все ссылки, которые пользователь не трогал, будут синие */
+.khan__buy-link:link {
+  color: #2f80ed;
+}
+/* ссылки, по которым пользователь переходил, сделаем серыми, бледными */
+.khan__buy-link:visited {
+  color: #808080;
+}
+/* ссылка, на которую пользователь навёл курсор, сменит цвет на зеленый */
+.khan__buy-link:hover {
+  color: #2f38ed;
+}
+/* в момент клика ссылка станет красной */
+.khan__buy-link:active {
+  color: #f00;
 }

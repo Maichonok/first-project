@@ -4,5 +4,25 @@
   font-weight: normal;
   position: absolute;
   top: 50%;
-  right: 1.3em;
+  right: 10%;
+}
+
+.feynman__link {
+  text-decoration: none;
+}
+/* все ссылки, которые пользователь не трогал, будут синие */
+.feynman__link:link {
+    color: #2f80ed;
+}
+/* ссылки, по которым пользователь переходил, сделаем серыми, бледными */
+.feynman__link:visited {
+    color: #808080;
+}
+/* ссылка, на которую пользователь навёл курсор, сменит цвет на зеленый */
+.feynman__link:hover {
+    color: #2f38ed;
+}
+/* в момент клика ссылка станет красной */
+.feynman__link:active {
+    color: #f00;
 }

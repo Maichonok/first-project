@@ -2,4 +2,9 @@
   min-height: 350px;
   background-color: #1f1f1f;
   color: #fff;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-basis: 711px;
+  flex-direction: column;
 }
