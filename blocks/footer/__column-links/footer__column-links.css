@@ -2,7 +2,13 @@
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
   color: #fff;
   text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__column-links li:not(:last-child) {
+  margin-bottom: 10px;
 }

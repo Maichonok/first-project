@@ -5,19 +5,8 @@
   text-decoration: none;
 }
 
-/* все ссылки, которые пользователь не трогал, будут синие */
-.khan__buy-link:link {
-  color: #2f80ed;
-}
-/* ссылки, по которым пользователь переходил, сделаем серыми, бледными */
-.khan__buy-link:visited {
-  color: #808080;
-}
-/* ссылка, на которую пользователь навёл курсор, сменит цвет на зеленый */
 .khan__buy-link:hover {
-  color: #2f38ed;
+  opacity: .5;
+  transition: opacity ease;
 }
-/* в момент клика ссылка станет красной */
-.khan__buy-link:active {
-  color: #f00;
-}
+

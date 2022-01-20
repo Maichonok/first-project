@@ -1,1 +1,0 @@
-<img src="images/two_again.png" alt="Филипок">
